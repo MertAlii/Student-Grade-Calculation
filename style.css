@@ -1,0 +1,55 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.form-label
+{
+    font-weight: bold;
+}
+
+.studentList {
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-header {
+    background: linear-gradient(45deg, #007bff, #0056b3) !important;
+    color: #fff;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+    transition: transform 0.2s;
+}
+
+.result-success {
+    color: #198754;
+    font-weight: bold;
+}
+
+.result-fail {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.student-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.delete-btn {
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    color: #bb2d3b;
+}
+
